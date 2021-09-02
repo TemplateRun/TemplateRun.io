@@ -15,8 +15,8 @@ jobs:
           npm install
           npm run build
           npm run deploy
-          git config --global user.email "templaterun21@gmail.com"
-          git config --global user.name "TemplateRun"
+          git config user.email "templaterun21@gmail.com"
+          git config user.name "TemplateRun"
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
