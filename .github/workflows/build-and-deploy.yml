@@ -1,7 +1,7 @@
 name: Build and Deploy Site
 on:
   push:
-    branches: [push]
+    branches: [main]
 
 jobs:
   build-and-deploy:
