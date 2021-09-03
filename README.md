@@ -19,7 +19,7 @@
 Come join us and share your work with the world, making building websites fun!</p><br/>
 
 <h2 align="center"> TemplateRun Projects </h2>
-<h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px" style="padding-top: 2px">  TemplateRun.io </h3>
+<h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px" style="padding-top: 10px">  TemplateRun.io </h3>
 <span > This is our official website, which showcases our projects and provides a brief about us. </span> 
 <h3 ><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px"  style="padding-top: 2px">  TR-CSS </h3>
 <span style="font-weight:400"> This is a collective repository for all our projects made with CSS (without any frameworks included). </span> 
