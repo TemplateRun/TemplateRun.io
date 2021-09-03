@@ -5,7 +5,7 @@ gatsby-build:
 build:
 	gatsby build && gatsby serve
 
-.PHONY: setup-libs
+.PHONY: setup
 setup-libs:
 	npm install --legacy-peer-deps
 
