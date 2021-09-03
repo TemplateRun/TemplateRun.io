@@ -17,8 +17,8 @@ Please contribute! The TemplateRun site uses Gatsby. The process of contributing
 1. Fork a copy of this repo.
 1. Get a local clone of your fork of the site.
    `git clone https://github.com/TemplateRun/TemplateRun.io`
-1. Switch to the `master` branch.
-   `git checkout master`
+1. Switch to the `main` branch.
+   `git checkout main`
 1. Create and checkout a new branch to make changes within
    `git checkout -b <my-username>/<my-changes>`
 1. Edit site/add content.
