@@ -4,20 +4,32 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Footer from "../sections/general/Footer"
+import Navbar from "../sections/general/navigation"
 
-const IndexPage = () => (
+const IndexPage = () => {
+  const schema= {
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "TemplateRun",
+  "url": "https://templaterun.github.io/TemplateRun.io/",
+  "logo": "https://github.com/TemplateRun/TemplateRun.io/blob/7dbd32d08a8bf01a903c531bfcb0755fe4b9cac8/.github/assets/images/TR%20LOGO%20new.png",
+  "sameAs": [
+    "https://github.com/TemplateRun",
+    
+  ]
+};
+  return(
+   <div>
+  <Seo title="TemplateRun" description="Need a Template, we got you fam" 
+  schemaMarkup={schema}/>
   <Layout>
-    <Seo title="Home" />
-    <h1>Testing out Netlify</h1>
-  <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <Navbar />
+    <Footer />
   </Layout>
-)
+  </div> 
+ 
+);
+  };
 
 export default IndexPage
