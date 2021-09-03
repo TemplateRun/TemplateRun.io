@@ -18,7 +18,7 @@
 
 Come join us and share your work with the world, making building websites fun!</p><br/>
 
-<h2 align="center"> Projects </h2>
+<h2 align="center">Projects</h2>
 <h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">  TemplateRun.io </h3>
 <span > This is our official website, which showcases our projects and provides a brief about us. </span> 
 <h3 ><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="24px">  TR-CSS </h3>
