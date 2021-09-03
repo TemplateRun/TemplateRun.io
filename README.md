@@ -10,8 +10,8 @@
 <img src="https://img.shields.io/github/stars/TemplateRun/TemplateRun.io?color=yellow&style=for-the-badge"/></a>
 <a href="https://github.com/TemplateRun/TemplateRun.io" alt="License">
 <img src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge" /></a>
-  <a href="templaterun.slack.com" alt="slack" style="margin-left:10px;">
-<img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack" style="height:1.99rem;" /></a><br/><br/>
+<a href="https://templaterun.slack.com" alt="slack" >
+<img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack"/></a><br/><br/>
 
 <img align='center' src=".github/assets/images/welcome.gif">
 <p>TemplateRun is an open-source development community where reusable components for websites, are collected. We provide users with a variety of components with 1000s of designs to choose from.
@@ -29,6 +29,6 @@ Come join us and share your work with the world, making building websites fun!</
 <h2 align="center"> Community <span style="color:white">and </span>Contributing </h2>
 <p >Contributions are more than welcome. Join our community on slack and hop onto our schedule of:</p>
 <p >✔️ <em><strong>Hop</strong></em> on to our <a href="templaterun.slack.com">Slack channel</a>.</p>
-<p ">✔️ <em><strong>Join</strong></em> the weekly meetings on the <a href="https://calender.google.com/calendar/b/1? cid=bGF5ZXI1LmlvX2VoMmFhOWRwZjFnNDBlbHZvYzc2MmpucGhzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">community calendar</a>.</p>
+<p >✔️ <em><strong>Join</strong></em> the weekly meetings on the <a href="https://calender.google.com/calendar/b/1? cid=bGF5ZXI1LmlvX2VoMmFhOWRwZjFnNDBlbHZvYzc2MmpucGhzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">community calendar</a>.</p>
 <p >✔️ <em><strong>Access</strong></em> the <a href="https://drive.google.com/drive/u/4/folders/0ABH8aabN4WAKUk9PVA">Community Drive</a> by completing a community <a href="https://layer5.io/newcomer">Member Form</a>.</p>
 <p >✔️ <em><strong>Start</strong></em> with the <em>good first issues</em> or the ones having <em> help-wanted </em> label .</p><br />
