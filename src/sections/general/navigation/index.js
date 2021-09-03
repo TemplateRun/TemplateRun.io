@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav class="navbar-container container">
         <a href="/" class="home-link">
           <div class="navbar-logo"></div>
-        TemplateRun
+        TemplateRun 1234
         </a>
         <button type="button" class="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
           <span class="icon-bar"></span>
