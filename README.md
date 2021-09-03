@@ -11,7 +11,7 @@
 <a href="https://github.com/TemplateRun/TemplateRun.io" alt="License">
 <img src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge" /></a>
 <a href="https://templaterun.slack.com" alt="slack" >
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" height="50px" width="100px"/></a><br/><br/>
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" height="30px" width="78px"/></a><br/><br/>
 
 <img align='center' src=".github/assets/images/welcome.gif">
 <p>TemplateRun is an open-source development community where reusable components for websites are collected. We provide users with a variety of components with 1000s of designs to choose from.
