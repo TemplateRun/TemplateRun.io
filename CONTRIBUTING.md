@@ -8,9 +8,9 @@ Before building the site, ensure that you have the following dependencies instal
 
 Run the following:
 
-1. `cd TemplateRun`
-2. `npm install`
-3. `gatsby develop`
+1. `cd TemplateRun.io`
+2. `make setup-libs`
+3. `make site`
 
 Please contribute! The TemplateRun site uses Gatsby. The process of contributing to documentation follows this flow:
 
