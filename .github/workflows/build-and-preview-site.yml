@@ -16,6 +16,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
+          npm install -g gatsby-cli
           npm install
           npm run gatsby build && echo 'User-agent: *\nDisallow: /' > public/robots.txt
       - name: Zip Site
