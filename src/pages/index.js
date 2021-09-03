@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hello people</h1>
+    <h1>Testing out Netlify</h1>
     <p>Welcome to TemplateRun.</p>
     <p>Hello Aditya.</p>
     <StaticImage
