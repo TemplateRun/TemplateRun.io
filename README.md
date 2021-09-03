@@ -14,9 +14,9 @@
 <img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack"/></a><br/><br/>
 
 <img align='center' src=".github/assets/images/welcome.gif">
-<p>TemplateRun is an open-source development community where reusable components for websites, are collected. We provide users with a variety of components with 1000s of designs to choose from.
+<p>TemplateRun is an open-source development community where reusable components for websites are collected. We provide users with a variety of components with 1000s of designs to choose from.
 
-Come join us and share your work with the world, making building websites fun!</p><br/>
+Come join us and share your work with the world. Make building websites fun!</p><br/>
 
 <h2 align="center"> TemplateRun Projects </h2>
 <h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TemplateRun.io </h3>
@@ -27,7 +27,7 @@ Come join us and share your work with the world, making building websites fun!</
 <span style="font-weight:400"> This is a collective repository for all our projects made with Bootsrap. </span> <br/> <br/>
 
 <h2 align="center"> Community <span>and </span>Contributing </h2>
-<p >Contributions are more than welcome.</p>
+<p >Contributions are more than welcome. Not sure where to start?</p>
 <p >✔️ <em><strong>Hop</strong></em> on to our <a href="https://templaterun.slack.com">Slack channel</a>.</p>
 <p >✔️ <em><strong>Join</strong></em> the weekly meetings on the <a href="#">community calendar</a>.</p>
 <p >✔️ <em><strong>Access</strong></em> the <a href="#">Community Drive</a> by completing a community <a href="#">Member Form</a>.</p>
