@@ -23,7 +23,7 @@ Come join us and share your work with the world. Make building websites fun!</p>
 <span > This is our official website, which showcases our projects and provides a brief about us. </span> 
 <h3 ><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TR-CSS </h3>
 <span style="font-weight:400"> This is a collective repository for all our projects made with CSS (without any frameworks included). </span> 
-<h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TR-Bootstrap: </h3>
+<h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TR-Bootstrap </h3>
 <span style="font-weight:400"> This is a collective repository for all our projects made with Bootsrap. </span> <br/> <br/>
 
 <h2 align="center"> Community <span>and </span>Contributing </h2>
