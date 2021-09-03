@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Testing out Netlify</h1>
-    <p>Welcome to TemplateRun.</p>
+    <p>Again trying the BUild.</p>
     <p>Hello Aditya.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
