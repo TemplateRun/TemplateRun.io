@@ -9,7 +9,7 @@ const SecondPage = () => (
     <Seo title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <a href="https://github.com/TemplateRun/TemplateRun.io/tree/main">View our repositories</a>
   </Layout>
 )
 

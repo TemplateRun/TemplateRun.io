@@ -9,8 +9,6 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Testing out Netlify</h1>
-    <p>Welcome to TemplateRun.</p>
-    <p>Hello Sayantan and debjani.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -19,10 +17,6 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">come na </Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
   </Layout>
 )
 
