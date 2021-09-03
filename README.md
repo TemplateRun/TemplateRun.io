@@ -13,7 +13,7 @@
   <a href="templaterun.slack.com" alt="slack" style="margin-left:10px;">
 <img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack" style="height:1.99rem;" /></a><br/><br/>
 
-<h2 align="center" > <strong>About TemplateRun </strong></h2>
+<img src=".github/assets/images/welcome.gif" align="center">
 <p>TemplateRun is an open-source development community where reusable components for websites, are collected. We provide users with a variety of components with 1000s of designs to choose from.
 
 Come join us and share your work with the world, making building websites fun!</p><br/>
