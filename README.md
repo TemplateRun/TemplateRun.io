@@ -1,5 +1,5 @@
 <p style="text-align:center;" align="center">
-  <img align="center" src=".github/assets/images/TR LOGO new.png" width="25%" /></p>
+  <img align="center" src=".github/assets/images/TR LOGO new.png" width="35%" /></p>
 
  <p align="center">
 <a href="https://github.com/TemplateRun/TemplateRun.io" alt="GitHub forks">
