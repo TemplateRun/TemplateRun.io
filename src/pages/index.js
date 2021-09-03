@@ -8,28 +8,27 @@ import Footer from "../sections/general/Footer"
 import Navbar from "../sections/general/navigation"
 
 const IndexPage = () => {
-  const schema= {
-  "@context": "https://schema.org",
-  "@type": "Corporation",
-  "name": "TemplateRun",
-  "url": "https://templaterun.github.io/TemplateRun.io/",
-  "logo": "https://github.com/TemplateRun/TemplateRun.io/blob/7dbd32d08a8bf01a903c531bfcb0755fe4b9cac8/.github/assets/images/TR%20LOGO%20new.png",
-  "sameAs": [
-    "https://github.com/TemplateRun",
-    
-  ]
-};
-  return(
-   <div>
-  <Seo title="TemplateRun" description="Need a Template, we got you fam" 
-  schemaMarkup={schema}/>
-  <Layout>
-    <Navbar />
-    <Footer />
-  </Layout>
-  </div> 
- 
-);
-  };
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    name: "TemplateRun",
+    url: "https://templaterun.github.io/TemplateRun.io/",
+    logo: "https://github.com/TemplateRun/TemplateRun.io/blob/7dbd32d08a8bf01a903c531bfcb0755fe4b9cac8/.github/assets/images/TR%20LOGO%20new.png",
+    sameAs: ["https://github.com/TemplateRun"],
+  }
+  return (
+    <div>
+      <Seo
+        title="TemplateRun"
+        description="Need a Template, we got you fam"
+        schemaMarkup={schema}
+      />
+      <Layout>
+        <Navbar />
+        <Footer />
+      </Layout>
+    </div>
+  )
+}
 
 export default IndexPage
