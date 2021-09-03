@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import HeaderWrapper from "./navigation.style";
+import TRLOG from "../assets/images/TR LOGO new.png";
 
 
 const Navbar = () => {
@@ -11,8 +12,10 @@ const Navbar = () => {
              <header id="navbar">
       <nav class="navbar-container container">
         <a href="/" class="home-link">
+
           <div class="navbar-logo"></div>
         TemplateRun 1234
+
         </a>
         <button type="button" class="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
           <span class="icon-bar"></span>
