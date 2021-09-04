@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderWrapper from "./navigation.style";
+import HeaderWrapper from "./navigation.style.js";
 
 
 const Navbar = () => {
