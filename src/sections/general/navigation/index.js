@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
 import HeaderWrapper from "./navigation.style";
 import TRLOG from "../assets/images/TR LOGO new.png";
 
