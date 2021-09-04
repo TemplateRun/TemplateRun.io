@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  background: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.vid {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+}
+
+.hero-content {
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typewriter {
+  color: #fff !important;
+}
+
+.Typewriter__wrapper {
+  color: #fff !important;
+  font-size: 112px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  margin-top: 24px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+  }
+  p {
+    font-size: 24px;
+  }
+  .Typewriter__wrapper {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .Typewriter__wrapper {
+    font-size: 42px;
+  }
+}
