@@ -1,11 +1,10 @@
 import React from 'react'
-import HeaderWrapper from "./navigation.style.js";
-
+import "./styles.css";
 
 const Navbar = () => {
 
     return (
-        <HeaderWrapper>
+       <div>
              <header id="navbar">
       <nav class="navbar-container container">
         <a href="/" class="home-link">
@@ -29,8 +28,9 @@ const Navbar = () => {
         </div>
       </nav>
     </header>
-        </HeaderWrapper>
+    </div>
     )
+       
 }
 
 export default Navbar;       

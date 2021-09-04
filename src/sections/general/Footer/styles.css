@@ -1,6 +1,6 @@
-import styled from "styled-components"
 
-const FooterWrapper = styled.section`
+
+
   *,
   *:before,
   *:after {
@@ -55,6 +55,3 @@ const FooterWrapper = styled.section`
     font-size: 1em;
     font-weight: 300;
   }
-`
-
-export default FooterWrapper
