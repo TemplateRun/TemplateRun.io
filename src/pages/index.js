@@ -27,7 +27,7 @@ const IndexPage = () => {
         <Navbar />
         <Footer />
       </Layout>
-    </div>
+</div>
   )
 }
 

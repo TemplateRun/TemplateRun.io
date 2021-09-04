@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import HeaderWrapper from "./navigation.style";
 
 
@@ -33,4 +33,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar;       
