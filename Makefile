@@ -6,7 +6,7 @@ build:
 	gatsby build && gatsby serve
 
 .PHONY: setup
-setup-libs:
+setup:
 	npm install --legacy-peer-deps
 
 .PHONY: site
