@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Footer = () => {
   return (
-      <div class="fixed_footer">
+      <footer class="fixed_footer">
         <div class="content">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
@@ -14,7 +14,7 @@ const Footer = () => {
             pariatur voluptatem harum id error.
           </p>
         </div>
-      </div>
+      </footer>
       
   )
 }
