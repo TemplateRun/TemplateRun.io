@@ -24,7 +24,7 @@ Come join us and share your work with the world. Make building websites fun!</p>
 <h3 ><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TR-CSS </h3>
 <span style="font-weight:400"> This is a collective repository for all our projects made with CSS (without any frameworks included). </span> 
 <h3><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="24px">  TR-Bootstrap </h3>
-<span style="font-weight:400"> This is a collective repository for all our projects made with Bootsrap. </span> <br/> <br/>
+<span style="font-weight:400"> This is a collective repository for all our projects made with Bootstrap. </span> <br/> <br/>
 
 <h2 align="center"> Community <span>and </span>Contributing </h2>
 <p >Contributions are more than welcome. Not sure where to start?</p>
