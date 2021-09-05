@@ -14,5 +14,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         respondableId: ${{ github.event.pull_request.node_id }}
-        response: "TemplateRun team will review your PR soon. @${{ github.event.pull_request.user.login }} thanks for the PR :)"
+        response: "TemplateRun team will review your PR soon. @${{ github.event.pull_request.user.login }} thanks for the PR 😃"
         author: ${{ github.event.pull_request.user.login }}
