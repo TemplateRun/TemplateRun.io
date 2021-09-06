@@ -23,9 +23,6 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={icon} className='logo' alt='logo' />
-          <button className='nav-toggle' onClick={toggleLinks}>
-            <FaBars />
-          </button>
         </div>
         <div className='links-container' ref={linksContainerRef}>
           <ul className='links' ref={linksRef}>
@@ -36,9 +33,10 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+     
     </nav>
     );
-       
+
 }
 
-export default Navbar;       
+export default Navbar; 
