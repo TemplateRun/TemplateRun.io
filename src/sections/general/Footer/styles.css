@@ -1,16 +1,5 @@
 
 
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    font: 300 1em/1.5 "Merriweather", serif;
-    color: #242424;
-    padding: 0;
-    margin: 0;
-  }
-
   html,
   body {
     background: rgb(236, 240, 241);
