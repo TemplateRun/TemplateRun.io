@@ -1,0 +1,18 @@
+name: Auto message on Creating Issue.
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create comment for issue
+      if: github.event_name =='issues' 
+      uses: peter-evans/create-or-update-comment@v1
+      with:
+        issue-number: ${{tojson(github.event.issue.number)}}
+        body: |
+            Hi @${{ github.actor }} 👋, Thanks for creating the issue. Someone from the TemplateRun team will review the issue and if the issue is required then will mark as issue/approved. After the issue/approved label is marked start working on the issue🚀. 
+    
