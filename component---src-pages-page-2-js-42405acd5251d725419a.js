@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[617],{9863:function(e,t,a){a.r(t);var l=a(7294),r=(a(5444),a(7198)),n=a(6179);t.default=function(){return l.createElement(r.Z,null,l.createElement(n.Z,{title:"Page two"}),l.createElement("h1",null,"Hi from the second page"),l.createElement("p",null,"Welcome to page 2"),l.createElement("a",{href:"https://github.com/TemplateRun/TemplateRun.io/tree/main"},"View our repositories"))}}}]);
+//# sourceMappingURL=component---src-pages-page-2-js-42405acd5251d725419a.js.map
