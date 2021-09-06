@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Footer from "../sections/general/Footer"
 import Navbar from "../sections/general/navigation"
+import Sidebar from "../sections/general/navigation/sidebar"
 
 const IndexPage = () => {
   const schema = {
@@ -25,7 +26,9 @@ const IndexPage = () => {
       />
       <Layout>
         <Navbar />
-        
+
+        <Sidebar />
+
         <Footer />
       </Layout>
 </div>

@@ -1,36 +1,42 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react';
+import { FaBars } from 'react-icons/fa';
 import "./styles.css";
+import icon from "./../../../assets/images/TR LOGO new.png";
 
 const Navbar = () => {
-
-    return (
-       <div>
-             <header id="navbar">
-      <nav class="navbar-container container">
-        <a href="/" class="home-link">
-
-          <div class="navbar-logo"></div>
-        TemplateRun 1234
-
-        </a>
-        <button type="button" class="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div id="navbar-menu">
-          <ul class="navbar-links">
-            <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/blog">Blog</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/careers">Careers</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+  const [showLinks, setShowLinks] = useState(false);
+  const linksContainerRef = useRef(null);
+  const linksRef = useRef(null);
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
+  useEffect(() => {
+    const linksHeight = linksRef.current.getBoundingClientRect().height;
+    if (showLinks) {
+      linksContainerRef.current.style.height = `${linksHeight}px`;
+    } else {
+      linksContainerRef.current.style.height = '0px';
+    }
+  }, [showLinks]);
+  return (
+    <nav>
+      <div className='nav-center'>
+        <div className='nav-header'>
+          <img src={icon} className='logo' alt='logo' />
+        </div>
+        <div className='links-container' ref={linksContainerRef}>
+          <ul className='links' ref={linksRef}>
+                <li className="link" ><a href="#">MENU</a></li>
+                <li className="link" ><a href="#">ABOUT US</a></li>
+                <li className="link" ><a href="#">SUPPORT</a></li>
+                <li className="link" ><a href="#">CONNECT</a></li>
           </ul>
         </div>
-      </nav>
-    </header>
-    </div>
-    )
-       
+      </div>
+     
+    </nav>
+    );
+
 }
 
-export default Navbar;       
+export default Navbar; 
