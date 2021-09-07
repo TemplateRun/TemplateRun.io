@@ -1,36 +1,44 @@
 import React from "react"
 import "./styles.css";
+import logo from "./../../../assets/images/TR LOGO new.png";
+import { FaGithub, FaSlack, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <main class="content" role="main">
-    <h1>Fixed footer, scroll down.</h1>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A rerum blanditiis soluta nesciunt doloremque voluptate earum tempore fugit eveniet veritatis adipisci magni alias vitae dignissimos incidunt repellat ea quisquam amet eligendi perspiciatis pariatur excepturi magnam omnis aliquam quo aperiam non quibusdam sit molestiae ex. Quasi ipsa libero magnam maiores delectus.</p>
-  
-    <p>Lorem ipsum dolor sit amet, (TEst PR)consectetur adipisicing elit. Quasi vitae perferendis natus porro voluptate molestias deserunt impedit numquam recusandae ducimus dolorem facilis qui autem dolorum quam omnis repellendus asperiores neque excepturi ipsa! Rerum corrupti similique adipisci dolorem cupiditate modi veritatis eum doloribus placeat at quos explicabo et quidem! Illo incidunt obcaecati quo rem nesciunt dolorum fugit vitae voluptates eaque soluta!</p>
-  
-    <p>Lorem ipsum dolor sit amet,(adding text for test) consectetur adipisicing elit. Ad eligendi voluptates suscipit nesciunt nisi illo placeat qui voluptas quas vero voluptatibus eius in voluptate. Itaque eius nobis error id ullam officiis consectetur? Laboriosam commodi excepturi distinctio voluptas. Quam mollitia culpa ipsa? Modi magni officiis quibusdam nulla eum magnam quo in distinctio quis deleniti aliquid minima cum. Assumenda magni quae incidunt aliquam? Omnis eum aspernatur molestiae provident in quod delectus dolor sint vero? Quibusdam tempore similique.</p>
-    
-    <h2>Keep scrolling..</h2>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eum aspernatur quibusdam ad provident molestiae adipisci numquam vitae molestias quidem vero nostrum voluptates harum! Vero veniam adipisci minima corporis quidem sunt omnis illum similique consectetur enim atque autem distinctio quas deserunt ex amet itaque ipsa cumque sed asperiores doloremque aliquid praesentium nihil tenetur cum aliquam.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione blanditiis vero rem cupiditate magni praesentium veniam quibusdam dicta recusandae? Fugit fuga debitis inventore possimus distinctio perferendis.</p>
-  
-      <footer class="fixed_footer">
-        <div class="content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-            ducimus nemo quo totam neque quis soluta nisi obcaecati aliquam
-            saepe dicta adipisci blanditiis quaerat earum laboriosam accusamus
-            nesciunt! Saepe ex maxime enim asperiores nisi. Obcaecati nostrum
-            nobis laudantium aliquam commodi veniam magni similique ullam quis
-            pariatur voluptatem harum id error.
-          </p>
+  <footer className="footer">
+      <div className="about">
+        <h3>ABOUT US</h3>
+        <p>TemplateRun is an open-source development community
+          where reusable components for websites are collected.
+          We provide users with a variety of components with 1000s
+          of designs to choose from.
+        </p>
+      </div>
+      <div className="projects">
+        <h3>PROJECTS</h3>
+        <ul>
+          <li>TemplateRun.io</li>
+          <li>TR-CSS</li>
+          <li>TR-Bootstrap</li>
+          <li>TR-React</li>
+        </ul>
+      </div>
+      <div className="icons">
+        <div className="img"><img src={logo} width="20%" /></div>
+        <div className="social-links">
+          <a href=""><FaTwitter className="fab" /></a>
+          <a href=""><FaEnvelope className="fas fab fa-envelope" /></a>
+          <a href=""><FaSlack className="fab" /></a>
+          <a href=""><FaGithub className="fab" /></a>
+          <a href=""><FaLinkedin className="fab fa-linkedin-in" /></a>
         </div>
-      </footer>
-      </main>
+      </div>
+      <hr />
+      <div className="copy">
+        <p>2021 Copyright ©TemplteRun | All Rights Reserved</p>
+      </div>
+    </footer>
+
   )
 }
 
