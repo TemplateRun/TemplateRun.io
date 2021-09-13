@@ -14,7 +14,7 @@ p{
 }
   
 
-footer {
+.footerBanner {
   margin: auto;
   background-color: #210248;
   width: 100%;
