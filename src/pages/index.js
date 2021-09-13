@@ -7,6 +7,9 @@ import Seo from "../components/seo"
 import Footer from "../sections/general/Footer"
 import Navbar from "../sections/general/navigation"
 import Sidebar from "../sections/general/navigation/sidebar"
+import Timeline from "../sections/general/timeline"
+import {arraylists}  from "../sections/general/timeline/data"
+
 
 const IndexPage = () => {
   const schema = {
@@ -26,10 +29,9 @@ const IndexPage = () => {
       />
       <Layout>
         <Navbar />
-
         <Sidebar />
-
-        <Footer />
+        <Timeline items={arraylists} />
+        {/* <Footer /> */}
       </Layout>
 </div>
   )

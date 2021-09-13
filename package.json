@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-sharp": "^3.13.0",
     "globalstyles": "^2.0.0",
+    "gsap": "^3.7.1",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
