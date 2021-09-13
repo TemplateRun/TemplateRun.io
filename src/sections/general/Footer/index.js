@@ -6,7 +6,7 @@ import { FooterWrapper } from "./Footer.style";
 const Footer = () => {
   return (
   <FooterWrapper>
-  <footer className="footer">
+  <footer className="footerBanner">
       <div className="about">
         <h3>ABOUT US</h3>
         <p>TemplateRun is an open-source development community
