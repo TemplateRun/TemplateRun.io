@@ -16,6 +16,7 @@ h1{
   margin:50px auto;
   padding:40px 0;
   width:1000px;
+  z-index:-1000;
   box-sizing:border-box;
 }
 .timeline:before{
