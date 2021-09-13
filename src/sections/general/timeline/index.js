@@ -1,7 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
-import "./timeline.css";
-import icon from "./../../../assets/images/TR LOGO new.png";
+import { TimelineWrapper } from "./timeline.style";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -63,6 +61,7 @@ const Timeline = (props) => {
   }, []);
 
   return (
+    <TimelineWrapper>
     <div>
       <div className="timeline">
         <ul>
@@ -99,6 +98,8 @@ const Timeline = (props) => {
         </ul>
       </div>
     </div>
+    </TimelineWrapper>
+
   );
 };
 

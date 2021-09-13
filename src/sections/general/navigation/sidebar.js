@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import "./styles.css";
-import icon from "./../../../assets/images/TR LOGO new.png";
+import { HeaderWrapper } from "./navigation.style";
+
 
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -13,6 +13,7 @@ const Sidebar = () => {
     setIsSidebarOpen(false);
   };
   return (
+    <HeaderWrapper>
     <div>
         <div className={`${isSidebarOpen ? 'sidebar-opened' : 'sidebar-closed'}`}>
           <button onClick={openSidebar} className='sidebar-toggle'>
@@ -34,6 +35,7 @@ const Sidebar = () => {
       </ul>
     </aside>
     </div>
+    </HeaderWrapper>
     
     );
        

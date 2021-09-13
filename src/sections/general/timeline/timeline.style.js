@@ -1,3 +1,6 @@
+import styled from "styled-components";
+export const TimelineWrapper = styled.div`
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 body{
   padding:0;
@@ -150,3 +153,4 @@ h1{
     right:inherit;
   }
 }
+`;

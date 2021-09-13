@@ -1,10 +1,11 @@
 import React from "react"
-import "./styles.css";
 import logo from "./../../../assets/images/TR LOGO new.png";
 import { FaGithub, FaSlack, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FooterWrapper } from "./Footer.style";
 
 const Footer = () => {
   return (
+  <FooterWrapper>
   <footer className="footer">
       <div className="about">
         <h3>ABOUT US</h3>
@@ -38,6 +39,7 @@ const Footer = () => {
         <p>2021 Copyright ©TemplteRun | All Rights Reserved</p>
       </div>
     </footer>
+    </FooterWrapper>
 
   )
 }

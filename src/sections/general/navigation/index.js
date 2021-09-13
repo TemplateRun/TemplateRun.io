@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import "./styles.css";
+import { HeaderWrapper } from "./navigation.style";
 import icon from "./../../../assets/images/TR LOGO new.png";
 
 const Navbar = () => {
@@ -19,6 +19,7 @@ const Navbar = () => {
     }
   }, [showLinks]);
   return (
+    <HeaderWrapper>
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
@@ -35,6 +36,7 @@ const Navbar = () => {
       </div>
      
     </nav>
+    </HeaderWrapper>
     );
 
 }
