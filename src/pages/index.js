@@ -31,7 +31,7 @@ const IndexPage = () => {
         <Navbar />
         <Sidebar />
         <Timeline items={arraylists} />
-        {/* <Footer /> */}
+        <Footer />
       </Layout>
 </div>
   )
