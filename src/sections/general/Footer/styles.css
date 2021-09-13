@@ -19,7 +19,6 @@ footer {
   color: aliceblue;
   display: grid;
   position: absolute;
-  bottom: 0;
   grid-template-areas:
     "about icons pro"
     "hr hr hr"
