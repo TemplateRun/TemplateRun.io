@@ -8,6 +8,8 @@ import Footer from "../sections/general/Footer"
 import Navbar from "../sections/general/navigation"
 import Sidebar from "../sections/general/navigation/sidebar"
 import Timeline from "../sections/general/timeline"
+import About from "../sections/general/AboutUs"
+import Banner from "../sections/general/banner"
 import {arraylists}  from "../sections/general/timeline/data"
 
 
@@ -30,7 +32,9 @@ const IndexPage = () => {
       <Layout>
         <Navbar />
         <Sidebar />
+        <Banner />
         <Timeline items={arraylists} />
+        <About />
         <Footer />
       </Layout>
 </div>
