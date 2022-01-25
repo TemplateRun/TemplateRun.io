@@ -32,7 +32,7 @@ const IndexPage = () => {
       <Layout>
         <Navbar />
         <Sidebar />
-        {/* <Banner /> */}
+        {/* <Banner  /> */}
         <Timeline items={arraylists} />
         <About />
         <Footer />
