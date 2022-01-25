@@ -34,7 +34,7 @@ const IndexPage = () => {
         <Sidebar />
         {/* <Banner /> */}
         <Timeline items={arraylists} />
-        <About />
+        <About  />
         <Footer />
       </Layout>
 </div>
